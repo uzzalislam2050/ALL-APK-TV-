@@ -1,0 +1,122 @@
+[
+  {
+    "name": "IPL 2026",
+    "image": "https://i.postimg.cc/rwn28tr8/20250403-193100.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fcdn1.ctgiptv.com%2Fwillow-cricket%2Findex.m3u8"
+  },
+  {
+    "name": "PSL 2026",
+    "image": "https://i.postimg.cc/43Zpp2gX/20260427-195733.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fbpl24middleeast.akamaized.net%2Fhls%2Flive%2F2109311%2FP2s6L-FiN%40L-World_Feed%2Fmaster.m3u8"
+  },
+  {
+    "name": "PTV Sports",
+    "image": "https://i.postimg.cc/sXpJqtm3/Ptv.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fcrichd.johirxofficial.workers.dev%2Flive%2Fptvpk.m3u8"
+  },
+  {
+    "name": "Bein Sports 4",
+    "image": "https://i.postimg.cc/sgmcXCkX/20260427-200554.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fmaymunmatematigi.lol%2Fstatic%2Fbs4.m3u8"
+  },
+  {
+    "name": "BTV",
+    "image": "https://i.postimg.cc/zDbjrxLb/Btv-HD.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1709%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "Atn News",
+    "image": "https://i.postimg.cc/TwvMq4yd/20250602-071314.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1706%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "Ekattor TV",
+    "image": "https://i.postimg.cc/Nfd0dNms/20260427-202447.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1705%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "Somoy TV",
+    "image": "https://i.postimg.cc/PJhqR9SH/20260427-202504.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1702%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "Jamuna TV",
+    "image": "https://i.postimg.cc/hGWj4816/Jamuna-Tv.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1701%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "Independent TV",
+    "image": "https://i.postimg.cc/zG08z3p9/20260427-203108.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1704%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "Channel 24",
+    "image": "https://i.postimg.cc/qMLbtKKY/20260427-201137.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1703%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "Deepto Tv",
+    "image": "https://i.postimg.cc/7ZcB5h5p/dipto.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1711%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "ATN Bangla",
+    "image": "https://i.postimg.cc/k5gMKWB3/20260427-203134.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1722%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "Asian Tv",
+    "image": "https://i.postimg.cc/Y9yQYM39/20260429-073054.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fproxy.torongoplus.workers.dev%2F%3Furl%3Dhttps%3A%2F%2Fmtlivestream.com%2Fhls%2Fasian%2Fytlive%2Findex.m3u8"
+  },
+  {
+    "name": "Bangla Vision",
+    "image": "https://i.postimg.cc/TwTwkBkk/20260427-203236.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1715%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "Channel I",
+    "image": "https://i.postimg.cc/qMLbtKKY/20260427-201137.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1723%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "NTV Bangla",
+    "image": "https://i.postimg.cc/2yFDL5dX/20260427-201731.jpg",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1716%2Foutput%2Findex.m3u8"
+  },
+  {
+    "name": "MY TV",
+    "image": "https://i.postimg.cc/0y7ppp9f/20241118-164338.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fapp24.jagobd.com.bd%2Fc3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2%2Fmytv-up-off.stream%2Ftracks-v1a1%2Fmono.m3u8"
+  },
+  {
+    "name": "Ekushe Tv",
+    "image": "https://i.postimg.cc/HLchzXGY/Ekushe.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fproxyserver2.nurmd2006-official.workers.dev%2F%3Furl%3Dhttps%3A%2F%2Fekusheyserver.com%2Fhls-live%2Flivepkgr%2F_definst_%2Fliveevent%2Flivestream3.m3u8"
+  },
+  {
+    "name": "Sananda Tv",
+    "image": "https://i.postimg.cc/xT1s9pyz/20241029-135129.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Flive.sanandatelevision.in%2Fsananda%2Findex.m3u8"
+  },
+  {
+    "name": "ZEE Bangla",
+    "image": "https://i.postimg.cc/ZRjjSzFd/20250403-190441.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fottbanglaplatform.com%2Ftv%2Ftoffee%2Flive.php%3Fid%3Dzee_bangla%26e%3D.m3u8"
+  },
+  {
+    "name": "Star Jalsha",
+    "image": "https://i.postimg.cc/V6t2fM4G/starjalsha.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Fyupptvcatchupire.yuppcdn.net%2Fpreview%2Fstarjalsha%2F1800.m3u8"
+  },
+  {
+    "name": "Enterr10",
+    "image": "https://i.postimg.cc/fypczz3J/enter10bangla.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Flive-bangla.akamaized.net%2Fliveabr%2Fplaylist.m3u8"
+  },
+  {
+    "name": "Bangla Plus",
+    "image": "https://i.postimg.cc/4y7TM4dJ/Bangla-Plus.png",
+    "url": "https://apklive.vercel.app/jw-player?url=https%3A%2F%2Flive-stream.utkalbongo.com%2Fhls%2Flivebanglatvstream.m3u8"
+  }
+]

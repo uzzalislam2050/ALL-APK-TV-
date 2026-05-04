@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/jw-player",
+      "dest": "/jw-player.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}

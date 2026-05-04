@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>APK LIVE TV Player</title>
+<script src="https://content.jwplatform.com/libraries/IDzF9Zmk.js"></script>
+<script>jwplayer.key="Khpp2dHxlBJHC8MCmLnBuV2jK/DwDnJMniwF6EO9HC/riJ712ZmbHg==";</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:100%;height:100%;background:#000;overflow:hidden;font-family:Arial,sans-serif;color:#fff}#player{width:100%;height:100vh;background:#000}.jw-error,.jw-state-error,.jwplayer .jw-error-msg,.jwplayer .jw-display-icon-container{display:none!important;visibility:hidden!important;opacity:0!important}.center{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#000;z-index:999999}.hide{display:none!important}.loader-container{position:relative;width:230px;height:230px;display:flex;align-items:center;justify-content:center}.neon-ring{position:absolute;width:210px;height:210px;border-radius:50%;border:3px solid transparent;border-top:3px solid #00ff88;border-right:3px solid #ff2d2d;animation:spin 1.5s linear infinite;filter:drop-shadow(0 0 12px #00ff88)}.neon-ring:nth-child(2){width:170px;height:170px;border-top-color:#ffb000;border-right-color:#00eaff;animation:spinReverse 1.2s linear infinite}.tv-icon{font-size:46px;color:#00ff88;text-shadow:0 0 18px #00ff88;margin-bottom:12px}.brand-name{font-size:22px;font-weight:900}.brand-name span{color:#ff2d2d}#offlineBox{position:fixed;inset:0;background:#000;z-index:9999999;display:flex;align-items:center;justify-content:center;text-align:center}.offline-icon{color:#ff4b4b;font-size:68px;margin-bottom:18px}.offline-title{font-size:16px;color:#fff;margin-bottom:5px}.offline-brand{font-size:12px;font-weight:900;letter-spacing:1px}.offline-brand span:first-child{color:#fff}.offline-brand span:last-child{color:#00eaff}@keyframes spin{to{transform:rotate(360deg)}}@keyframes spinReverse{to{transform:rotate(-360deg)}}
+</style>
+</head>
+<body>
+<div id="loader" class="center"><div class="loader-container"><div class="neon-ring"></div><div class="neon-ring"></div><div style="z-index:2;text-align:center"><i class="fas fa-tv tv-icon"></i><div class="brand-name">APK LIVE <span>TV</span></div></div></div></div>
+<div id="offlineBox" class="hide"><div><i class="fas fa-exclamation-triangle offline-icon"></i><div class="offline-title">Stream Offline!</div><div class="offline-brand"><span>APK LIVE</span> <span>TV</span></div></div></div>
+<div id="player"></div>
+<script>
+const params=new URLSearchParams(window.location.search);let streamUrl=params.get('url')||params.get('file')||'https://cdn1.ctgiptv.com/willow-cricket/index.m3u8';
+try{streamUrl=decodeURIComponent(streamUrl)}catch(e){}
+try{const parsed=new URL(streamUrl,window.location.href);const urlParam=parsed.searchParams.get('url');const fileParam=parsed.searchParams.get('file');if(urlParam)streamUrl=decodeURIComponent(urlParam);else if(fileParam)streamUrl=decodeURIComponent(fileParam)}catch(e){}
+function hideLoader(){document.getElementById('loader').classList.add('hide')}
+function showOffline(){hideLoader();document.getElementById('offlineBox').classList.remove('hide');setTimeout(()=>{document.querySelectorAll('.jw-error,.jw-error-msg,.jw-display-icon-container').forEach(el=>el.remove())},100)}
+if(!streamUrl||!/^https?:\/\//i.test(streamUrl)){showOffline()}else{const player=jwplayer('player');player.setup({file:streamUrl,type:'hls',width:'100%',height:'100%',autostart:true,mute:false,stretching:'uniform',primary:'html5'});player.on('ready',hideLoader);player.on('play',hideLoader);player.on('buffer',()=>{document.getElementById('offlineBox').classList.add('hide');document.getElementById('loader').classList.remove('hide')});player.on('error',e=>{console.error('JW Error:',e);showOffline()});player.on('setupError',e=>{console.error('JW Setup Error:',e);showOffline()});document.body.addEventListener('click',()=>{try{player.setMute(false);player.setVolume(100)}catch(e){}},{once:true})}
+</script>
+</body>
+</html>
